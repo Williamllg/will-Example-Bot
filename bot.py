@@ -14,6 +14,6 @@ if __name__== '__main__':
     dp.add_handler(CommandHandler("start" , start))
     # Agregando un Handler de Comando 
 
-    # Esto es para que el bot se quede escuchando las ordenes que le van entranado por los parameteos 
+    # Esto es para que el bot se quede escuchando las ordenes que le van entranado por los parametros 
     updater.start_polling()
     updater.idle()
